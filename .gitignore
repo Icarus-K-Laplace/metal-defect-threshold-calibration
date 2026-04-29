@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual env
+venv/
+.env/
+.venv/
+conda_env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Training outputs
+runs/
+runs_*/
+weights/
+checkpoints/
+
+# Results
+results/**/*.csv
+results/**/*.json
+results/**/*.txt
+
+# Logs
+*.log
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+*.lof
+*.lot
+*.synctex.gz
+
+# PDFs
+*.pdf
